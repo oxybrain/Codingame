@@ -22,22 +22,11 @@ while (true) {
     var yDir = '';
     
     if (xPos != 0){
-        if (xPos > 0){
-            xDir = 'E';
-            xPos -= 1;
-        } else {
-            xDir = 'W';
-            xPos += 1;
-        }
+        xPos > 0 ? (xDir = 'E', xPos -= 1) : (xDir = 'W', xPos += 1);
     }
+
     if (yPos != 0){
-        if (yPos > 0){
-            yDir = 'S';
-            yPos -=1;
-        } else {
-            yDir = 'N';
-            yPos += 1;
-        }
+        yPos >0 ? ( yDir = 'S', yPos -= 1) : (yDir = 'N', yPos += 1);
     }
     // A single line providing the move to be made: N NE E SE S SW W or NW
     console.log(yDir+xDir);

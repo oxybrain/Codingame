@@ -1,13 +1,11 @@
- 	Objectif
+# Objectif
 
 Le binaire avec des 0 et des 1 c'est bien. Mais le binaire avec que des 0, ou presque, c'est encore mieux.
-
 Ecrivez un programme qui, à partir d'un message en entrée, affiche le message codé avec cette technique en sortie.
 
- 	Règles
+# Règles
 
-Voici le principe d'encodage :
-
+## Voici le principe d'encodage :
 Le message en entrée est constitué de caractères ASCII (7 bits)
 Le message encodé en sortie est constitué de blocs de 0
 Un bloc est séparé d'un autre bloc par un espace
@@ -33,7 +31,7 @@ Deuxième exemple, nous voulons encoder le message CC (soit les 14 bits 10000111
 0 00 (deux 1)
 CC vaut donc : 0 0 00 0000 0 000 00 0000 0 00
 
- 	Entrées du jeu
+# Entrées du jeu
 
 Entrée
 Ligne 1 : le message composé de N caractères ASCII (sans retour chariot)

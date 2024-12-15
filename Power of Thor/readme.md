@@ -1,9 +1,7 @@
-Objectif
-
+# Objectif
 Votre programme doit permettre à Thor de rejoindre l'éclair de puissance.
 
-Règles
-
+# Règles
 Thor évolue sur une carte de 40 cases de large et 18 cases de hauteur. Notez que les coordonnées (X et Y) commencent en partant du haut ! Ainsi la case la plus en haut à gauche a pour coordonnées "X=0,Y=0" et celle située le plus en bas à droite a pour coordonnées "X=39,Y=17".
 
 Au début du programme vous recevez :
@@ -30,7 +28,7 @@ Vous gagnez lorsque Thor arrive sur l'éclair de puissance
 Conditions de défaite
 Thor sort de la carte
 
-Exemple:
+# Exemple:
 - Phase initiale
 Thor démarre sur la carte à la position (3, 6). L'éclair se trouve en (3, 8).
 
@@ -47,7 +45,7 @@ N'oubliez pas d'exécuter les tests depuis la fenêtre "Jeu de tests".
 Attention : les tests fournis et les validateurs utilisés pour le calcul du score sont légèrement 
 différents pour éviter les solutions codées en dur
  	
-Entrées du jeu
+# Entrées du jeu
 
 Le programme doit d'abord lire les données d'initialisation depuis l'entrée standard, puis, dans une 
 boucle infinie fournir sur la sortie standard les instructions de mouvement de Thor.

@@ -1,18 +1,17 @@
-Objectif
+# Objectif
 
 Dans cet exercice, vous devez analyser un relevé de températures pour trouver quelle température se rapproche le plus de zéro.
 
-	
-Exemple de températures
+# Exemple de températures
 [+7 -10 +13 +8 +4 -7 -12 -3 +3 -9 +6 -1 -6 +7]
 Ici, -1 est le plus proche de 0.
  	
-Règles
+# Règles
 Écrivez un programme qui affiche la température la plus proche de 0 parmi les données d'entrée.
 Si deux nombres sont aussi proches de zéro, alors l'entier positif sera considéré comme étant le 
 plus proche de zéro (par exemple, si les températures sont -5 et 5, alors afficher 5).
 
-Entrées du jeu
+# Entrées du jeu
 Votre programme doit lire les données depuis l'entrée standard et écrire le résultat sur la sortie standard.
 Entrée
 Ligne 1 : Le nombre N de températures à analyser.
@@ -21,7 +20,7 @@ Ligne 2 : Une chaine de caractères contenant les N températures exprimées sou
 
 Sortie : Affichez 0 (zéro) si aucune température n'est fournie. Sinon, affichez la température la plus proche de 0
 
-Contraintes
+# Contraintes
 0 ≤ N < 10000
 
 Exemple
